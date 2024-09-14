@@ -4,7 +4,7 @@ import os
 import sys
 
 # Initialize the bot with a name or API configuration
-app = Client("my_bot")  # Replace "my_bot" with your bot's name or ID
+app = Client("Adv_sameebot")  # Replace "my_bot" with your bot's name or ID
 
 @app.on_message(filters.command("start"))
 async def start_handler(client: Client, message: Message):
